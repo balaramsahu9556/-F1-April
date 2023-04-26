@@ -1,335 +1,122 @@
-body {
-    background: #1E1E1E;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
 }
-
-/* Rectangle 1 */
-header {
-    position: absolute;
-    width: 1728px;
-    height: 86px;
-    left: 0px;
+.navbar{
+    background: #FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: sticky;
     top: 0px;
-    background: #FCAF02;
 }
-
-/* Startup */
-#logo {
-    position: absolute;
-    width: 127px;
-    height: 39px;
-    left: 58px;
-    top: 24px;
-    font-family: 'Montserrat';
-    font-style: normal;
+.navbar .logo img{
+    width:35%;
+}
+.nav-items{
+    margin-right: 78px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+    padding: 0px 25px;
+}
+.container{
+    background-color: black;
+    padding-left: 58px;
+}
+.home-page{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.home-page .image >img{
+    width: 70%;
+}
+.home-page .content{
+    width: 78%;
+}
+.home-page .content h1{
     font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    color: #000000;
-    text-decoration: none;
-}
-
-/* Home */
-#home {
-    position: absolute;
-    width: 87px;
-    height: 34px;
-    left: 1048px;
-    top: 26px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    color: #000000;
-    text-decoration: none;
-}
-
-/* About Us */
-#aboutus {
-    position: absolute;
-    width: 130px;
-    height: 34px;
-    left: 1185px;
-    top: 26px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    color: #000000;
-    text-decoration: none;
-}
-
-/* Contact Us */
-#contactus {
-    position: absolute;
-    width: 155px;
-    height: 34px;
-    left: 1365px;
-    top: 26px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    color: #000000;
-    text-decoration: none;
-}
-
-/* Login */
-#login {
-    position: absolute;
-    width: 80px;
-    height: 34px;
-    left: 1570px;
-    top: 26px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    color: #000000;
-    text-decoration: none;
-}
-
-/* Startup Landing Page */
-#lpage {
-    position: absolute;
-    width: 736px;
-    height: 78px;
-    left: 58px;
-    top: 174px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 78px;
-    /* identical to box height */
     color: #FFFFFF;
 }
-
-/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
-p {
-    position: absolute;
-    width: 917px;
-    height: 238px;
-    left: 63px;
-    top: 285px;
-    font-family: 'Montserrat';
-    font-style: normal;
+.home-page .content p{
+    color: #ffffff;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 17px;
     line-height: 34px;
-    color: #FFFFFF;
 }
-
-/* jeff 1 */
-img {
-    position: absolute;
-    width: 697px;
-    height: 482px;
-    left: 1000px;
-    top: 173px;
-}
-
-/* Rectangle 2 */
-#btnlogin {
-    position: absolute;
-    width: 323px;
-    height: 66px;
-    left: 63px;
-    top: 573px;
-    background: #FCAF02;
-    border-radius: 500px;
-}
-
-/* Login */
-#login2 {
-    position: absolute;
-    width: 95px;
-    height: 39px;
-    left: 120px;
-    top: 10px;
-    font-family: 'Montserrat';
-    font-style: normal;
+.btn{
+    background-color: #FCAF02;
+    border-radius: 50px;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    color: black;
-    text-decoration: none;
-    text-align: center;
-}
-
-/* Contact Us */
-#cont {
-    position: absolute;
-    width: 369px;
-    height: 78px;
-    left: 63px;
-    top: 771px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
-    /* identical to box height */
-    color: #FCAF02;
-}
-
-/* Rectangle 3 */
-#name {
-    box-sizing: border-box;
-    background-color: #1E1E1E;
-    position: absolute;
-    width: 1570px;
-    height: 82px;
-    left: 63px;
-    top: 913px;
-    border: 2px solid #FCAF02;
-    border-radius: 100px;
-    color: #FCAF02;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-}
-
-/*  Rectangle */
-
-#email {
-    box-sizing: border-box;
-    background-color: #1E1E1E;
-    position: absolute;
-    width: 1570px;
-    height: 82px;
-    left: 63px;
-    top: 1045px;
-    border: 2px solid #FCAF02;
-    border-radius: 100px;
-    color: #FCAF02;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-}
-
-/* Rectangle 3 */
-#mobno {
-    box-sizing: border-box;
-    background-color: #1E1E1E;
-    position: absolute;
-    width: 730px;
-    height: 82px;
-    left: 63px;
-    top: 1177px;
-    border: 2px solid #FCAF02;
-    border-radius: 100px;
-    color: #FCAF02;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-}
-
-/* Rectangle 3 */
-#city {
-    box-sizing: border-box;
-    background-color: #1E1E1E;
-    position: absolute;
-    width: 767px;
-    height: 82px;
-    left: 866px;
-    top: 1177px;
-    border: 2px solid #FCAF02;
-    border-radius: 100px;
-    position: absolute;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    color: #FCAF02;
-
-}
-
-/* Rectangle 3 */
-#submit {
-    box-sizing: border-box;
-    position: absolute;
-    width: 325px;
-    height: 82px;
-    left: 685px;
-    top: 1326px;
-    background: #FCAF02;
-    border: 2px solid #FCAF02;
-    border-radius: 100px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-}
-
-/* Rectangle 4 */
-
-table {
-    box-sizing: border-box;
-    position: absolute;
-    width: 1582px;
-    height: 755px;
-    left: 75px;
-    top: 1524px;
-    border: 2px solid #FCAF02;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    color: #FCAF02;
-}
-
-/* Rectangle 5 */
-footer {
-    position: absolute;
-    width: 1582px;
-    height: 91px;
-    left: 75px;
-    top: 2188px;
-    background: #FCAF02;
-}
-
-/* Rectangle 5 */
-#oo {
-    position: absolute;
-    width: 1582px;
-    height: 91px;
-    left: 75px;
-    background: #FCAF02;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
+    font-size: 20px;
     color: #000000;
+    padding: 14px 114px;
+    border: none;
+    margin: top 40px;
+    margin-bottom: 80px;
+}
+.btn >a{
     text-decoration: none;
+    color: #000000;
+}
+.contact-us h1{
+    color: #FCAF02;
 }
 
-#finalfooter {
-    /* Final Footer */
-    position: absolute;
-    width: 167px;
-    height: 34px;
-    left: 590px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
+form{
+    padding: 60px 0px;
+}
+
+.form-control input{
+    width: 95%;
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+    height: 45px;
+    margin: 10px;
+    outline: none;
+    padding-left: 35px;
+    background-color: black;
+}
+.form-control-1 input{
+    width: 45%;
+}
+::placeholder{
+    color: #FCAF02;
+    font-size: 17px;
+}
+.table{
+    color:#FCAF02;
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+table, thread{
+    width: 100%;
+    border: 2px solid #FCAF02;
+}
+
+td, th{
+    border-left: 2px solid #FCAF02;
+}
+
+tfoot td{
+    border: 2px solid #000000;
+}
+
+table, tr, td, th{
+    padding: 25px;
+    border-collapse: collapse;
+}
+
+tfoot{
     color: #000000;
-    text-decoration: none;
+    background-color: #FCAF02;
+    border: 2px solid #000000;
 }
