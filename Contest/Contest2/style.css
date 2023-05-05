@@ -1,23 +1,26 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .navbar{
-    background: #FCAF02;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #FCAF02;
     height: 70px;
     position: sticky;
     top: 0px;
 }
+
 .navbar .logo img{
-    width:35%;
+    width: 35%;
 }
 .nav-items{
     margin-right: 78px;
 }
+
 .nav-items a{
     text-decoration: none;
     font-weight: 400;
@@ -25,48 +28,53 @@
     color: #000000;
     padding: 0px 25px;
 }
+
 .container{
     background-color: black;
     padding-left: 58px;
 }
+
 .home-page{
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
 }
-.home-page .image >img{
-    width: 70%;
+
+.home-page .image > img{
+    width: 45%;
+    /* padding-left: 35%; */
 }
+
 .home-page .content{
     width: 78%;
 }
+
 .home-page .content h1{
     font-weight: 700;
     font-size: 40px;
     line-height: 78px;
     color: #FFFFFF;
 }
+
 .home-page .content p{
-    color: #ffffff;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 17px;
     line-height: 34px;
 }
+
 .btn{
-    background-color: #FCAF02;
+    background: #FCAF02;
     border-radius: 50px;
     font-weight: 700;
     font-size: 20px;
     color: #000000;
     padding: 14px 114px;
     border: none;
-    margin: top 40px;
+    margin-top: 40px;
     margin-bottom: 80px;
 }
-.btn >a{
-    text-decoration: none;
-    color: #000000;
-}
+
 .contact-us h1{
     color: #FCAF02;
 }
@@ -76,28 +84,32 @@ form{
 }
 
 .form-control input{
-    width: 95%;
+    width: 97%;
     border: 2px solid #FCAF02;
     border-radius: 100px;
     height: 45px;
     margin: 10px;
     outline: none;
-    padding-left: 35px;
+    padding-left: 20px;
     background-color: black;
 }
+
 .form-control-1 input{
-    width: 45%;
+    width: 47%;
 }
+
 ::placeholder{
     color: #FCAF02;
     font-size: 17px;
 }
+
 .table{
-    color:#FCAF02;
+    color: #FCAF02;
     font-size: 17px;
     padding-bottom: 60px;
+    
 }
-table, thread{
+table, thead{
     width: 100%;
     border: 2px solid #FCAF02;
 }
